@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36A05BF615800CB500CA1CB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A05BF515800CB500CA1CB8 /* UIKit.framework */; };
+		36A05BF815800CB500CA1CB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A05BF715800CB500CA1CB8 /* Foundation.framework */; };
+		36A05BFA15800CB500CA1CB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A05BF915800CB500CA1CB8 /* CoreGraphics.framework */; };
+		36A05C0015800CB500CA1CB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36A05BFE15800CB500CA1CB8 /* InfoPlist.strings */; };
+		36A05C0215800CB500CA1CB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A05C0115800CB500CA1CB8 /* main.m */; };
+		36A05C0615800CB500CA1CB8 /* ClipsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A05C0515800CB500CA1CB8 /* ClipsAppDelegate.m */; };
+		36A05C0915800CB500CA1CB8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36A05C0715800CB500CA1CB8 /* MainStoryboard.storyboard */; };
+		36A05C0C15800CB500CA1CB8 /* ClipsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A05C0B15800CB500CA1CB8 /* ClipsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36A05BF115800CB500CA1CB8 /* Clips-iOS-FW-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clips-iOS-FW-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36A05BF515800CB500CA1CB8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		36A05BF715800CB500CA1CB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		36A05BF915800CB500CA1CB8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		36A05BFD15800CB500CA1CB8 /* Clips-iOS-FW-App-Info.plist */ = {isa = PBXFileReference; path = "Clips-iOS-FW-App-Info.plist"; sourceTree = "<group>"; };
+		36A05BFF15800CB500CA1CB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36A05C0115800CB500CA1CB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36A05C0315800CB500CA1CB8 /* Clips-iOS-FW-App-Prefix.pch */ = {isa = PBXFileReference; path = "Clips-iOS-FW-App-Prefix.pch"; sourceTree = "<group>"; };
+		36A05C0415800CB500CA1CB8 /* ClipsAppDelegate.h */ = {isa = PBXFileReference; path = ClipsAppDelegate.h; sourceTree = "<group>"; };
+		36A05C0515800CB500CA1CB8 /* ClipsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClipsAppDelegate.m; sourceTree = "<group>"; };
+		36A05C0815800CB500CA1CB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		36A05C0A15800CB500CA1CB8 /* ClipsViewController.h */ = {isa = PBXFileReference; path = ClipsViewController.h; sourceTree = "<group>"; };
+		36A05C0B15800CB500CA1CB8 /* ClipsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClipsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36A05BEE15800CB500CA1CB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36A05BF615800CB500CA1CB8 /* UIKit.framework in Frameworks */,
+				36A05BF815800CB500CA1CB8 /* Foundation.framework in Frameworks */,
+				36A05BFA15800CB500CA1CB8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36A05BE615800CB500CA1CB8 = {
+			isa = PBXGroup;
+			children = (
+				36A05BFB15800CB500CA1CB8 /* Clips-iOS-FW-App */,
+				36A05BF415800CB500CA1CB8 /* Frameworks */,
+				36A05BF215800CB500CA1CB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36A05BF215800CB500CA1CB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36A05BF115800CB500CA1CB8 /* Clips-iOS-FW-App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36A05BF415800CB500CA1CB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36A05BF515800CB500CA1CB8 /* UIKit.framework */,
+				36A05BF715800CB500CA1CB8 /* Foundation.framework */,
+				36A05BF915800CB500CA1CB8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36A05BFB15800CB500CA1CB8 /* Clips-iOS-FW-App */ = {
+			isa = PBXGroup;
+			children = (
+				36A05C0415800CB500CA1CB8 /* ClipsAppDelegate.h */,
+				36A05C0515800CB500CA1CB8 /* ClipsAppDelegate.m */,
+				36A05C0715800CB500CA1CB8 /* MainStoryboard.storyboard */,
+				36A05C0A15800CB500CA1CB8 /* ClipsViewController.h */,
+				36A05C0B15800CB500CA1CB8 /* ClipsViewController.m */,
+				36A05BFC15800CB500CA1CB8 /* Supporting Files */,
+			);
+			path = "Clips-iOS-FW-App";
+			sourceTree = "<group>";
+		};
+		36A05BFC15800CB500CA1CB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36A05BFD15800CB500CA1CB8 /* Clips-iOS-FW-App-Info.plist */,
+				36A05BFE15800CB500CA1CB8 /* InfoPlist.strings */,
+				36A05C0115800CB500CA1CB8 /* main.m */,
+				36A05C0315800CB500CA1CB8 /* Clips-iOS-FW-App-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36A05BF015800CB500CA1CB8 /* Clips-iOS-FW-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36A05C0F15800CB500CA1CB8 /* Build configuration list for PBXNativeTarget "Clips-iOS-FW-App" */;
+			buildPhases = (
+				36A05BED15800CB500CA1CB8 /* Sources */,
+				36A05BEE15800CB500CA1CB8 /* Frameworks */,
+				36A05BEF15800CB500CA1CB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clips-iOS-FW-App";
+			productName = "Clips-iOS-FW-App";
+			productReference = 36A05BF115800CB500CA1CB8 /* Clips-iOS-FW-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36A05BE815800CB500CA1CB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Clips;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 36A05BEB15800CB500CA1CB8 /* Build configuration list for PBXProject "Clips-iOS-FW-App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36A05BE615800CB500CA1CB8;
+			productRefGroup = 36A05BF215800CB500CA1CB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36A05BF015800CB500CA1CB8 /* Clips-iOS-FW-App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36A05BEF15800CB500CA1CB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36A05C0015800CB500CA1CB8 /* InfoPlist.strings in Resources */,
+				36A05C0915800CB500CA1CB8 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36A05BED15800CB500CA1CB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36A05C0215800CB500CA1CB8 /* main.m in Sources */,
+				36A05C0615800CB500CA1CB8 /* ClipsAppDelegate.m in Sources */,
+				36A05C0C15800CB500CA1CB8 /* ClipsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		36A05BFE15800CB500CA1CB8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36A05BFF15800CB500CA1CB8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		36A05C0715800CB500CA1CB8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36A05C0815800CB500CA1CB8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36A05C0D15800CB500CA1CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36A05C0E15800CB500CA1CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36A05C1015800CB500CA1CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clips-iOS-FW-App/Clips-iOS-FW-App-Prefix.pch";
+				INFOPLIST_FILE = "Clips-iOS-FW-App/Clips-iOS-FW-App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		36A05C1115800CB500CA1CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clips-iOS-FW-App/Clips-iOS-FW-App-Prefix.pch";
+				INFOPLIST_FILE = "Clips-iOS-FW-App/Clips-iOS-FW-App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36A05BEB15800CB500CA1CB8 /* Build configuration list for PBXProject "Clips-iOS-FW-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36A05C0D15800CB500CA1CB8 /* Debug */,
+				36A05C0E15800CB500CA1CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36A05C0F15800CB500CA1CB8 /* Build configuration list for PBXNativeTarget "Clips-iOS-FW-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36A05C1015800CB500CA1CB8 /* Debug */,
+				36A05C1115800CB500CA1CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36A05BE815800CB500CA1CB8 /* Project object */;
+}
