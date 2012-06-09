@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ClipsViewController : UIViewController
+- (IBAction)runClips:(id)sender;
 
 @end
