@@ -261,8 +261,8 @@
 		36A05C1015800CB500CA1CB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Katie Kuwata (7GA2TWJCE4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../Clips-iOS-FW/build/Debug-framework\"",
@@ -271,6 +271,8 @@
 				GCC_PREFIX_HEADER = "Clips-iOS-FW-App/Clips-iOS-FW-App-Prefix.pch";
 				INFOPLIST_FILE = "Clips-iOS-FW-App/Clips-iOS-FW-App-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "02AB99AE-122C-4696-9680-F781FC02F66D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -278,8 +280,8 @@
 		36A05C1115800CB500CA1CB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Katie Kuwata (7GA2TWJCE4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../Clips-iOS-FW/build/Debug-framework\"",
@@ -288,6 +290,8 @@
 				GCC_PREFIX_HEADER = "Clips-iOS-FW-App/Clips-iOS-FW-App-Prefix.pch";
 				INFOPLIST_FILE = "Clips-iOS-FW-App/Clips-iOS-FW-App-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "02AB99AE-122C-4696-9680-F781FC02F66D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
