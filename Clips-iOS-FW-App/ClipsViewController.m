@@ -34,7 +34,7 @@
 }
 
 - (IBAction)runClips:(id)sender {
-	printf("Running CLIPS...");
+	printf("Running CLIPS...\n");
 	
     //Clips_iOS_FW* obj = [[[Clips_iOS_FW alloc] init] autorelease];
 	//float result = [obj calcBMIByHeight:10 weight:20];
