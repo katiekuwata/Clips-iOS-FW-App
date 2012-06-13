@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		360E2E771587DC7300E08701 /* monkey-do.clp in Resources */ = {isa = PBXBuildFile; fileRef = 360E2E761587DC7300E08701 /* monkey-do.clp */; };
+		3643D4C71589390D002350B5 /* monkey-do-what.clp in Resources */ = {isa = PBXBuildFile; fileRef = 3643D4C61589390D002350B5 /* monkey-do-what.clp */; };
 		3668AAB21582A43C00DAEB74 /* test.clp in Resources */ = {isa = PBXBuildFile; fileRef = 3668AAB11582A43C00DAEB74 /* test.clp */; };
 		36A05BF615800CB500CA1CB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A05BF515800CB500CA1CB8 /* UIKit.framework */; };
 		36A05BF815800CB500CA1CB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A05BF715800CB500CA1CB8 /* Foundation.framework */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		360E2E761587DC7300E08701 /* monkey-do.clp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "monkey-do.clp"; path = "Clips-iOS-FW-App/monkey-do.clp"; sourceTree = "<group>"; };
+		3643D4C61589390D002350B5 /* monkey-do-what.clp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "monkey-do-what.clp"; path = "Clips-iOS-FW-App/monkey-do-what.clp"; sourceTree = "<group>"; };
 		3668AAB11582A43C00DAEB74 /* test.clp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test.clp; path = "Clips-iOS-FW-App/test.clp"; sourceTree = "<group>"; };
 		36A05BF115800CB500CA1CB8 /* Clips-iOS-FW-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clips-iOS-FW-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36A05BF515800CB500CA1CB8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -63,7 +67,9 @@
 		3668AAB31582A48400DAEB74 /* bundle */ = {
 			isa = PBXGroup;
 			children = (
+				3643D4C61589390D002350B5 /* monkey-do-what.clp */,
 				3668AAB11582A43C00DAEB74 /* test.clp */,
+				360E2E761587DC7300E08701 /* monkey-do.clp */,
 			);
 			name = bundle;
 			sourceTree = "<group>";
@@ -175,6 +181,8 @@
 				36A05C0015800CB500CA1CB8 /* InfoPlist.strings in Resources */,
 				36A05C0915800CB500CA1CB8 /* MainStoryboard.storyboard in Resources */,
 				3668AAB21582A43C00DAEB74 /* test.clp in Resources */,
+				360E2E771587DC7300E08701 /* monkey-do.clp in Resources */,
+				3643D4C71589390D002350B5 /* monkey-do-what.clp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
