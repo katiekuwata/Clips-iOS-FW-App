@@ -128,8 +128,11 @@
 	
     // Clean up the CLIPS environment. 
     InitializeEnvironment(); 
+	printf("(clear)\n");
     Clear();
+	printf("(watch facts)\n");
 	Watch("facts");
+	printf("(watch activations)\n");
 	Watch("activations");
 
 	//============================================================
@@ -155,25 +158,30 @@
  
     // Check to see if there was data to load from the rules file: 
     if (rule1) {
-		NSLog(@"File to load %@", filePath1); 
+		//NSLog(@"File to load %@", filePath1); 
 		
         // CLIPS seems to require that strings be passed as C type "char" as opposed to iOS' NSString. 
         const unsigned char *clipsFileChar = (const unsigned char *)[filePath1 cStringUsingEncoding:NSASCIIStringEncoding]; 
 		
         // NOW we assert a fact (passed on from the iOS application) 
         // HERE is where you take the record you want to run against the rules file and pass it on to CLIPS! 
+		printf("(assert (monkey see))\n");
         AssertString("(monkey see)"); 
+		printf("(facts)\n");
 		Facts("stdout", NULL, -1, -1, -1);
 		
 		// Here we load the rules file: 
+		printf("(defrule MONKEY-DO (monkey see) => (assert (monkey do)))\n");
 		Load((char *)clipsFileChar); 
 		
 		// Then we "run" the rules against the fact we passed above: 
-        int *numberRulesFired = Run(-1); 
+		printf("(run)\n");
+		int *numberRulesFired = Run(-1); 
         // OPEN ITEM: How to receive the text of the rules fired BACK into the iOS app? 
         // This tells us the number of rules that were activated, or "fired" 
-        NSLog(@"Number of rules that fired: %d", numberRulesFired); 
+        //NSLog(@"Number of rules that fired: %d", numberRulesFired); 
 		
+		printf("(facts)\n");
 		Facts("stdout", NULL, -1, -1, -1);
 	} else { 
 		// In case the app could not open the file containing the 
@@ -182,32 +190,40 @@
 		
     // Check to see if there was data to load from the rules file: 
     if (rule2) {
-		NSLog(@"File to load %@", filePath2); 
+		//NSLog(@"File to load %@", filePath2); 
 		
         // CLIPS seems to require that strings be passed as C type "char" as opposed to iOS' NSString. 
         const unsigned char *clipsFileChar = (const unsigned char *)[filePath2 cStringUsingEncoding:NSASCIIStringEncoding]; 
 
 		// Here we load the rules file: 
+		printf("(defrule MONKEY-DO-WHAT (monkey do) => (assert (monkey you)))\n");
 		Load((char *)clipsFileChar); 
 		
 		// Then we "run" the rules against the fact we passed above: 
+		printf("(run)\n");
         int *numberRulesFired = Run(-1); 
         // OPEN ITEM: How to receive the text of the rules fired BACK into the iOS app? 
         // This tells us the number of rules that were activated, or "fired" 
-        NSLog(@"Number of rules that fired: %d", numberRulesFired); 
+        //NSLog(@"Number of rules that fired: %d", numberRulesFired); 
+		printf("(facts)\n");
 		Facts("stdout", NULL, -1, -1, -1);
 
 		DATA_OBJECT returnValue;
 		GetFactList(&returnValue, NULL);
-        NSLog(@"Number of facts: %d", returnValue.end + 1); 
+        //NSLog(@"Number of facts: %d", returnValue.end + 1); 
 		
+		printf("(retract *)\n");
 		Retract(NULL);
+		printf("(facts)\n");
 		Facts("stdout", NULL, -1, -1, -1);
 		
 		// NOW we assert a fact (passed on from the iOS application) 
         // HERE is where you take the record you want to run against the rules file and pass it on to CLIPS! 
+		printf("(assert (monkey see))\n");
         AssertString("(monkey see)"); 
+		printf("(run)\n");
 		Run(-1);
+		printf("(facts)\n");
 		Facts("stdout", NULL, -1, -1, -1);
 	} else { 
 		// In case the app could not open the file containing the 
