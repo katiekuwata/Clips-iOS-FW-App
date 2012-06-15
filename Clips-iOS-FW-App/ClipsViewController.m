@@ -39,7 +39,7 @@
     //Clips_iOS_FW* obj = [[[Clips_iOS_FW alloc] init] autorelease];
 	//float result = [obj calcBMIByHeight:10 weight:20];
 
-    //TestFWCalc *o = [[TestFWCalc alloc] init];
+    //TestFramework *o = [[TestFramework alloc] init];
     //[o hello];
     //NSLog(@"\n It is %@.", [o helloString]);
     //[o release];
